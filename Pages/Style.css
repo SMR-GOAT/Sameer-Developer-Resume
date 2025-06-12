@@ -1,0 +1,48 @@
+  a {
+    font-size: 35px; /* حجم الخط */
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:rgba(149, 251, 255, 0.911);
+  font-weight: bold;
+  font-style:oblique;
+  text-align: center;
+   margin: 0 50px; /* من اليمين واليسار */
+   border-radius: 25px; /* زوايا ناعمة */
+  padding: 10px; /* مسافة داخلية */
+   border: 2px solid rgba(79, 85, 109, 0.952); /* الإطار */
+   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4); /* أبيض شفاف */
+   }
+
+    /* Create a header with a semi-transparent overlay */
+    header {
+      color: #FFF;
+      text-align: center;
+    }
+
+    body
+    {
+      background: fixed no-repeat center url('../Images/Image2.jpg'); /* خلفية ثابتة في المنتصف */
+      margin: 0; 
+      background-size: cover; /* تغطية كاملة للخلفية */
+      padding: 0; 
+      height: 100vh; 
+      display: flex; 
+      flex-direction: column;
+      height: 80vh;
+    }
+
+    a:hover {
+      color: rgba(7, 2, 5, 0.74); /* لون النص عند التمرير */
+      background-color: rgba(226, 233, 231, 0.863); /* لون الخلفية عند التمرير */
+      transition: background-color 0.3s ease; /* تأثير انتقال سلس */
+    }
+
+   h1 {
+      text-align: center; 
+      padding-top: 0vh; 
+       font-style:oblique;
+      font-family: 'Arial', sans-serif; 
+      color: #333;
+    }
+
+   

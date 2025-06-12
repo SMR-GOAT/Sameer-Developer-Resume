@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sameer • Resume Portal</title>
+
+  <!-- SEO & Social -->
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Personal resume portal for Sameer showcasing skills, experience, and projects." />
+  <meta name="keywords" content="Sameer, resume, portfolio, skills, experience, projects, Abu Saqr, web developer, software engineer" />
+  <meta name="author" content="Sameer" />
+  <meta name="application-name" content="Sameer's Resume Portal" />
+  <meta property="og:title" content="Sameer • Resume Portal" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="Images/HomeIcon_512x512.png" />
+  <meta property="og:description" content="Personal resume portal for Sameer showcasing skills, experience, and projects." />
+  <meta property="og:site_name" content="Sameer's Resume Portal" />
+  <meta name="theme-color" content="#007BFF" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/HomeIcon_32x32.png" />
+  <link rel="apple-touch-icon" sizes="128x128" href="Images/HomeIcon_128x128.png" />
+  <link rel="icon" type="image/png" sizes="256x256" href="Images/HomeIcon_256x256.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="Images/HomeIcon_512x512.png" />
+  <link rel="icon" type="image/svg+xml" href="Images/HomeIcon_SVG.svg" />
+  <link rel="apple-touch-startup-image" href="Images/HomeIcon_SVG.svg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Pages/Style.css" />
+  
+</head>
+<body>
+
+   <!-- Navbar يأخذ 20% من الصفحة -->
+  <header>
+  <div style="
+    height: 10vh;
+    margin: 10px;
+    background-color: #5046d486;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(78, 69, 207, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  ">
+    
+      <nav style="text-align: center; margin-top: 1vh;" aria-label="Main Navigation">
+        <a href="Pages/AboutMe.html" target="contentFrame">About me</a>
+        <a href="Pages/Activities.html" target="contentFrame">Activities</a>
+        <a href="Pages/TechnicalSkills.html" target="contentFrame">Technical Skills</a>
+        <a href="Pages/Projects.html" target="contentFrame">Projects</a>
+        <a href="Pages/Education.html" target="contentFrame">Education</a>
+      </nav>
+    
+  </div>
+  </header>
+
+  
+    <main>
+      <section>
+     <!-- المحتوى الباقي 80% -->
+  <div id="content" style="height: 80vh; margin: 0 20px; border: none;">
+    <iframe name="contentFrame" src="Pages/AboutMe.html"
+      style="width: 100%; height: calc(100% - 30px); border: none;"></iframe>
+  </div>
+  </main>
+  </section>
+
+ 
+
+</body>
+</html>
